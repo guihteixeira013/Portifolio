@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/*
+Declaration property in order:
+.select {
+        //POSITIONING
+    position...
+    top...
+    right...
+        //BOX MODEL
+    display...
+    width...
+    max-width...
+    padding...
+    border-radius...
+        //TYPOGRAPHY
+    font-size...
+    font-family...
+        //VISUAL
+    background...
+    border...
+    filter...
+}
+*/
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ico {  /*icones*/
+    width: 35px;
+    height: 35px;
+}
+
+.grid-container {
+    padding: 15px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 172, 172);
+}
+
+header {
+    height: 100px;
+    background-color: #710627;
+}
+
+img {
+    width: 90vw;
+}
+
+footer {
+    height: 100px;
+    background-color: #710627;
+}
