@@ -122,7 +122,17 @@ nav a {
 }
 
 h1 {
+    padding: 10px;
     font-family: var(--fonte-destaque);
+}
+
+#desc {
+    padding: 30px 15px;
+    text-align: justify;
+}
+
+#desc p::first-letter {
+    font-size: 200%;
 }
 
 .h1-hardskills {/*  título "hard skills"  */
@@ -136,6 +146,7 @@ h1 {
 }
 
 .grid-container-HS {
+    padding: 30px 15px;
     justify-content: center;
     display: grid;
     grid-template: 100px 100px / 100px 100px;
@@ -153,6 +164,7 @@ h1 {
 }
 
 .grid-container-SS {
+    padding: 30px 15px;
     justify-content: center;
     display: grid;
     grid-template: 100px 100px 100px / 100px 100px;
@@ -171,7 +183,12 @@ h1 {
 }
 
 footer {
-    height: 100px;
+    height: 125px;
     color: white;
     background-color: black;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
 }
