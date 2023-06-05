@@ -23,20 +23,33 @@ Declaration property in order:
     border...
     filter...
 }
-
+    CORES:
+B8B8D1
+FFFFFB
+710627
+FF7F11
+19297C
+[https://coolors.co/b8b8d1-fffffb-710627-ff7f11-19297c]
     FONTES:
 Roboto;
 Roboto Condensed;
 Montserrat.
-
-:root {
-    --cor-1: ;
-
-    --fonte-padrao: ;
-    --fonte-destaque: ;
-    --fonte-exemplo: ;
-}
 */
+
+:root { /*variáveis para cores e fontes*/
+    /*variáveis para CORES*/
+    --cor-padrao:#710627;
+    --cor-contraste1:#FF7F11;
+    --cor-contraste2:#19297C;
+    --cor-sombra:#B8B8D1;
+    --cor-clara:#FFFFFB;
+
+    /*variáveis para FONTES*/
+    --fonte-destaque: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --fonte-padrao: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --fonte-subtitulo: 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 
 * {
     margin:0;
@@ -62,7 +75,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100%; 
-    font-family: 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--fonte-subtitulo);
 }
 
 .border { /*separadores do menu superior*/
@@ -78,9 +91,9 @@ nav a {
 
 #intro {
     padding: 15px;
-    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--fonte-destaque);
     color: white;
-    background-color: #710627;
+    background-color: var(--cor-padrao);
 }
 
 #intro > p {
@@ -105,21 +118,21 @@ nav a {
 
 #intro > p:last-child { /*parágrafo "Guilherme Teixeira"*/
     text-align: right;
-    font: bolder x-large 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: bolder x-large var(--fonte-destaque);
 }
 
 h1 {
-    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--fonte-destaque);
 }
 
 .h1-hardskills {/*  título "hard skills"  */
     color: white;
-    background-color: #710627;    
+    background-color: var(--cor-padrao);    
 }
 
 #hard-skills {
     color: white;
-    background-color: #710627;
+    background-color: var(--cor-padrao);
 }
 
 .grid-container-HS {
@@ -129,14 +142,14 @@ h1 {
     gap: 10px;
 }
 
-.grid-item-HS {
+.grid-item-HS { /*quadrados de "Hard Skills"*/
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(172, 172, 172);
+    font-family: var(--fonte-subtitulo);
+    background-color: var(--cor-contraste2);
 }
 
 .grid-container-SS {
@@ -146,14 +159,15 @@ h1 {
     gap: 10px;
 }
 
-.grid-item-SS {
+.grid-item-SS { /*quadrados de "Soft Skills"*/
     width: 100px;
     height: 100px; 
     display: flex;
     text-align: center;
     align-items: center;
-    font-family: 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(172, 172, 172);
+    font-family: var(--fonte-subtitulo);
+    color: white;
+    background-color: var(--cor-contraste1);
 }
 
 footer {
