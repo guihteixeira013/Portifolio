@@ -1,0 +1,33 @@
+h1 {
+    padding: 15px;
+    font-family: var(--fonte-destaque);
+}
+
+section {
+    padding: 30px 0px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 90vw;
+}
+
+h2 {
+    padding: 15px 0px 0px 15px;
+    font-family: var(--fonte-padrao);
+}
+
+h3 {
+    padding: 0px 15px 15px 15px;
+    font-family: var(--fonte-subtitulo);
+}
+
+p {
+    padding: 0px 15px ;  
+    text-align: justify;
+}
+
+p::first-letter {
+    font-size: 200%;
+}
