@@ -62,6 +62,10 @@ Montserrat.
     height: 35px;
 }
 
+body {
+    background-color: black;
+}
+
 header {
     z-index: 1;
     position: sticky;
@@ -88,6 +92,10 @@ nav a {
     text-decoration: none;
     padding: 7px;
     color: white;
+}
+
+main {
+    background-color: white;
 }
 
 #intro {
