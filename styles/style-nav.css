@@ -4,15 +4,21 @@ nav {
     align-items: center;
     height: 100%; 
     font-family: var(--fonte-subtitulo);
-}
-
-.border { /*separadores do menu superior*/
-    border-right: white solid 1px;
-    border-left: white solid 1px;
+    font-size: 3.5vw;
 }
 
 nav a {
     text-decoration: none;
     padding: 7px;
     color: white;
+}
+
+a:hover {
+    background-color: var(--cor-padrao);
+    transition: .4s;
+    border-bottom: 100% solid white;
+}
+
+a.active {
+    background-color: var(--cor-padrao);
 }
