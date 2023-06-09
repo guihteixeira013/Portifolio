@@ -105,6 +105,9 @@ main {
     font-family: var(--fonte-destaque);
     color: white;
     background-color: var(--cor-padrao);
+    background-image: url(/imagens/pexels-ken-tomita-389818.jpg);
+    background-size: cover;
+    opacity: 90%;
 }
 
 #intro > p {
@@ -124,7 +127,7 @@ main {
 #intro > img {
     display: block;
     margin: 20px auto;
-    width: 90vw;
+    width: 60vw;
 }
 
 #intro > p:last-child { /*parágrafo "Guilherme Teixeira"*/
