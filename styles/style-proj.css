@@ -1,5 +1,6 @@
 h1 {
     font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.089);
 }
 
 main section {
@@ -15,6 +16,7 @@ img {
 h2 {
     padding: 15px 0px 0px 15px;
     font-family: var(--fonte-padrao);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.089);
 }
 
 h3 {
