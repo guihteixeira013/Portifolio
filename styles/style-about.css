@@ -20,13 +20,31 @@ h3 {
 }
 
 p {
-    padding: 0px 15px ;  
+    padding: 0px 40px ;  
     text-align: justify;
     font-family: var(--fonte-padrao);
+    font-weight: 400;
 }
 
 p::first-letter {
     font-size: 200%;
+}
+
+#content {
+    display: flex;
+    margin: 10px -10px;
+    height: 400px;
+    background-image: url(/imagens/pexels-david-3712595.jpg);
+    background-size: cover;
+}
+
+#content > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.452);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.219);
 }
 
 #assin {
