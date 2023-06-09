@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    font-family: var(--fonte-subtitulo);
+}
+
+.border { /*separadores do menu superior*/
+    border-right: white solid 1px;
+    border-left: white solid 1px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+}
