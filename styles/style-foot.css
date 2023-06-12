@@ -1,0 +1,17 @@
+footer {
+    height: 125px;
+    color: white;
+    background-color: black;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+h1 {
+    padding: 10px;
+    font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.089);
+}
