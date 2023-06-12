@@ -3,13 +3,14 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100%; 
+    transition: .3s;
     font-family: var(--fonte-subtitulo);
-    font-size: 3.5vw;
+    font-size: 20px;
 }
 
 nav a {
     text-decoration: none;
-    padding: 7px;
+    padding: 10px;
     color: white;
 }
 
