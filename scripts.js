@@ -13,3 +13,5 @@ function shrinkNav() {
         header.style.height = "100px"
     }
 }
+//PARA PÁGINA "PROJETOS"
+//Função para abrir ou fechar botão para mostrar descrição de projeto
