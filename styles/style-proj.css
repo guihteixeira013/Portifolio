@@ -10,6 +10,21 @@ main section:nth-child(even) {
     width: 100%;
 }
 
+.accordion:hover {
+    background-color: var(--cor-padrao);
+    color: white;
+}
+
+.active {
+    background-color: var(--cor-padrao);
+    color: white;
+}
+
+.panel {
+    display: none;
+    overflow: hidden;
+}
+
 main h1 {
     background-color: var(--cor-sombra);
 }
