@@ -1,5 +1,5 @@
 main section {
-    padding: 30px 0px;
+    padding: 30px 0px 15px 0px;
 }
 
 main section:nth-child(even) {
@@ -7,7 +7,12 @@ main section:nth-child(even) {
 }
 
 .accordion {
+    padding: 10px;
+    border: none;
     width: 100%;
+    transition: .5s;
+    cursor: pointer;
+    background-color: inherit;
 }
 
 .accordion:hover {
@@ -23,6 +28,9 @@ main section:nth-child(even) {
 .panel {
     display: none;
     overflow: hidden;
+    padding: 20px;
+    color: white;
+    background-color: var(--cor-padrao);
 }
 
 main h1 {
