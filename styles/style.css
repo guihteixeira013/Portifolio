@@ -145,43 +145,44 @@ h1 {
     background-color: var(--cor-padrao);
 }
 
-/* container hard skill */
+.grid-item {
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    font-family: var(--fonte-subtitulo);
+    color: white;
+}
+
+/* CONTAINER HARD SKILL */
+.grid-container-HS > * { 
+    background-color: var(--cor-contraste2);
+}
+
 .grid-container-HS {
     padding: 30px 15px;
-    justify-content: center;
+
     display: grid;
+    justify-content: center;
     grid-template: repeat(2, 100px) / repeat(2, 100px);
     gap: 10px;
 }
 
-/* itens de hard skill */
-.grid-item-HS { 
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--fonte-subtitulo);
-    background-color: var(--cor-contraste2);
+/* CONTAINER SOFT SKILL */
+.grid-container-SS > * {
+    background-color: var(--cor-contraste1);
 }
 
-/* container soft skill */
 .grid-container-SS {
     padding: 30px 15px;
-    justify-content: center;
+
     display: grid;
+    justify-content: center;
     grid-template: repeat(3, 100px) / repeat(2, 100px);
     gap: 10px;
-}
-
-/* itens de soft skill */
-.grid-item-SS { 
-    width: 100px;
-    height: 100px; 
-    display: flex;
-    text-align: center;
-    align-items: center;
-    font-family: var(--fonte-subtitulo);
-    color: white;
-    background-color: var(--cor-contraste1);
 }
