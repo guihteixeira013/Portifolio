@@ -29,7 +29,7 @@ for (i = 0; i < acc.length; i++) {
         // encontrar o próxim irmão com a classe "panel"
         var panel = this.nextElementSibling
 
-        //verificar se o panel está visível
+        //verificar se o panel está visíveltech
         if (panel.style.display === "block") {
             panel.style.display = "none"    //ocultar o painel
         } else {

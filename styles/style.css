@@ -38,7 +38,7 @@ Roboto Condensed;
 Montserrat.
 */
 
-:root { /*variáveis para cores e fontes*/
+:root {
     /*variáveis para CORES*/
     --cor-padrao:#710627;
     --cor-contraste1:#FF7F11;
@@ -55,12 +55,12 @@ Montserrat.
 * {
     margin:0;
     padding: 0;
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
-.ico {  /*icones*/
+.ico {  /*icones das redes sociais*/
     width: 35px;
     height: 35px;
 }
@@ -145,15 +145,17 @@ h1 {
     background-color: var(--cor-padrao);
 }
 
+/* container hard skill */
 .grid-container-HS {
     padding: 30px 15px;
     justify-content: center;
     display: grid;
-    grid-template: 100px 100px / 100px 100px;
+    grid-template: repeat(2, 100px) / repeat(2, 100px);
     gap: 10px;
 }
 
-.grid-item-HS { /*quadrados de "Hard Skills"*/
+/* itens de hard skill */
+.grid-item-HS { 
     width: 100px;
     height: 100px;
     display: flex;
@@ -163,15 +165,17 @@ h1 {
     background-color: var(--cor-contraste2);
 }
 
+/* container soft skill */
 .grid-container-SS {
     padding: 30px 15px;
     justify-content: center;
     display: grid;
-    grid-template: 100px 100px 100px / 100px 100px;
+    grid-template: repeat(3, 100px) / repeat(2, 100px);
     gap: 10px;
 }
 
-.grid-item-SS { /*quadrados de "Soft Skills"*/
+/* itens de soft skill */
+.grid-item-SS { 
     width: 100px;
     height: 100px; 
     display: flex;
