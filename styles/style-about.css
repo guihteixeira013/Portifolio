@@ -1,21 +1,18 @@
-main {
-    padding: 10px;
-}
-
-main img {
+#pic img{
+    width: 90vw;
     display: block;
     margin: auto;
-    padding: 10px 0px 5px 0px;
-    width: 90vw;
 }
 
 h2 {
-    padding: 5px 0px 0px 5px;
+    padding: 15px 0px 0px 20px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.185);
+    font-size: 2em;
     font-family: var(--fonte-destaque);
 }
 
 h3 {
-    padding: 0px 15px 15px 5px;
+    padding: 0px 15px 15px 20px;
     font-family: var(--fonte-subtitulo);
 }
 
@@ -31,24 +28,28 @@ p::first-letter {
 }
 
 #content {
-    display: flex;
-    margin: 10px -10px;
-    height: 400px;
+    display: grid;
+    grid-template: max-content;
+    width: 100%;
+    height: 100%;
     background-image: url(/imagens/pexels-david-3712595.jpg);
     background-size: cover;
 }
 
 #content > p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0px 45px 15px 45px;
+    border-radius: 0px 0px 4px 4px;
+    padding: 30px;
     color: white;
     background-color: rgba(0, 0, 0, 0.452);
     text-shadow: 1px 1px rgba(0, 0, 0, 0.219);
 }
 
-#assin {
-    display: flex;
-    justify-content: flex-end;
-    padding: 30px;
+#content img {
+    width: 200px;
+    border-radius: 6px;
+    padding: 15px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.336);
+
 }
