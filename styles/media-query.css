@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Typical Devices BREAKPOINTS
+
+                    (untill)
+Small Screen:     0    to 600px
+Phone:          600px  to 768px
+Tablet:         768px  to 992px
+Desktop:        992px  to 1200px
+Large Screen:   1200px to   ?
+
+    This content was taken from w3schools.com .
+*/
+
+/*PRINTER*/
+@media print { 
+    /* settings to printer here */
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* settings to tablet screens here */
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* settings to desktop screens here */
+}
+
+/* LARGER SCREEN */
+@media screen and (min-width: 1200px) {
+    /* settings to larger screens here */
+}
