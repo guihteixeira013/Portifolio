@@ -21,6 +21,7 @@ Large Screen:   1200px to   ?
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /*hidden header*/
     header {display: none;}
+    .sidebar {display: block}
     main, footer{margin-left: 120px}
 }
 
