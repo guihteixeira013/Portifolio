@@ -19,7 +19,9 @@ Large Screen:   1200px to   ?
 
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    /* settings to tablet screens here */
+    /*hidden header*/
+    header {display: none;}
+    main, footer{margin-left: 120px}
 }
 
 /* DESKTOP */

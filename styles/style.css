@@ -79,6 +79,17 @@ header {
     background-color: black;
 }
 
+.sidebar {
+    position: fixed;
+    width: 120px;
+    height: 100%;
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: var(--cor-padrao);
+}
+
 main {
     background-color: white;
 }
