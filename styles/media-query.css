@@ -17,12 +17,19 @@ Large Screen:   1200px to   ?
     /* settings to printer here */
 }
 
+@media screen and (max-width: 768px) {
+    header {display: block;}
+    .sidebar {display: none;}
+}
+
+/* Margin to sidebar */
+@media screen and (min-width: 768px) {
+    main, footer{margin-left: 120px}
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    /*hidden header*/
-    header {display: none;}
-    .sidebar {display: block}
-    main, footer{margin-left: 120px}
+    
 }
 
 /* DESKTOP */
