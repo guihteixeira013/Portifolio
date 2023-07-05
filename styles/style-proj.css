@@ -27,6 +27,7 @@ main section:nth-child(even) {
 .panel {
     display: none;
     overflow: hidden;
+    font-family: var(--fonte-padrao);
     padding: 20px;
 }
 

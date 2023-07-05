@@ -165,6 +165,7 @@ h1 {
 #desc {
     padding: 30px 15px;
     text-align: justify;
+    font-family: var(--fonte-padrao);
 }
 
 #desc p::first-letter {
