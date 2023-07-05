@@ -17,7 +17,7 @@ Large Screen:   1200px to   ?
     /* settings to printer here */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     header {display: block;}
     .sidebar {display: none;}
 }
@@ -28,7 +28,7 @@ Large Screen:   1200px to   ?
 }
 
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 767px) and (max-width: 992px) {
     
 }
 
