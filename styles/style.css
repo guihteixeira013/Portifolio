@@ -63,6 +63,7 @@ Montserrat.
 .ico {  /*icones das redes sociais*/
     width: 35px;
     height: 35px;
+    border-radius: 2px;
 }
 
 body {
