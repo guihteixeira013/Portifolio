@@ -91,30 +91,6 @@ header {
     background-color: var(--cor-padrao);
 }
 
-.sidebar i {font-size: 36px;}
-
-.sidebar li {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--fonte-subtitulo);
-}
-
-.sidebar li:hover {
-    background-color: black;
-}
-
-.sidebar img {
-    width: 100%;
-    height: 120px;
-}
-
-.sidebar li a {
-    text-decoration: none;
-    color: white;
-}
-
 main {
     background-color: white;
 }
