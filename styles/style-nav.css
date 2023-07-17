@@ -40,6 +40,7 @@ header a.active {
 
 .sidebar li:hover {
     background-color: black;
+    transition: .50s;
 }
 
 .sidebar img {

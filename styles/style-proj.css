@@ -16,6 +16,7 @@ main section:nth-child(even) {
 
 .accordion:hover {
     background-color: var(--cor-padrao);
+    transition: .50s;
     color: white;
 }
 
@@ -41,6 +42,7 @@ h1 {
 }
 
 img {
+    position: relative;
     display: block;
     margin: auto;
     width: 90vw;
