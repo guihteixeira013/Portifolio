@@ -124,10 +124,11 @@ main {
     font-size: large;
 }
 
-#intro > img {
+#myImage {
     display: block;
     margin: 20px auto;
     width: 60vw;
+    max-width: 595px;
 }
 
 #myName { 
