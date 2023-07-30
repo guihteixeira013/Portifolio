@@ -130,7 +130,8 @@ main {
     width: 60vw;
 }
 
-#intro > p:last-child { /*parágrafo "Guilherme Teixeira"*/
+#myName { 
+    /*parágrafo "Guilherme Teixeira"*/
     text-align: right;
     font: bolder 8vw var(--fonte-destaque);
 }
